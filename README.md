@@ -38,6 +38,7 @@ Because the dataset involves trade secrets, it cannot be made public at this tim
 
 *[ESC-50](https://github.com/karolpiczak/ESC-50)
 
+You can download the dataset yourself. 
 You need to set:
 ```
 dataset_path = "the download address of the dataset"
