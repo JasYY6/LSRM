@@ -30,5 +30,9 @@ All scripts is run by main.py:
 ```
 Train: CUDA_VISIBLE_DEVICES=1,2 python main.py train
 
+### Model Checkpoints:
+
+We provide the model checkpoints on three datasets (and additionally DESED dataset) in this [link](https://drive.google.com/drive/folders/1f5VYMk0uos_YnuBshgmaTVioXbs7Kmz6?usp=sharing). Feel free to download and test it.
+
 Test: CUDA_VISIBLE_DEVICES=1,2 python main.py test
 ```
