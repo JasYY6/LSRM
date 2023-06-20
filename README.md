@@ -23,6 +23,31 @@ Air pollution and an aging population have caused the increasing rates of lung d
 pip install -r requirements.txt
 ```
 
+[PyTorch](https://pytorch.org/) packages are not included in requirement, so you can download them yourself based on your server's configuration. 
+
+Install the 'SOX' and the 'ffmpeg', we recommend that you run this code in Linux inside the Conda environment. In that, you can install them by:
+```
+sudo apt install sox 
+conda install -c conda-forge ffmpeg
+```
+
+### Prepare for Datasets
+*Combined Dataset.
+
+Because the dataset involves trade secrets, it cannot be made public at this time. If you would like to use it for your own research, you can contact us and we will consider sharing the dataset after evaluation.
+
+*[ESC-50](https://github.com/karolpiczak/ESC-50)
+
+You need to set:
+```
+dataset_path = "the download address of the dataset"
+resample_path = "resampled directory"
+```
+Then:
+```
+cd esc-50
+python esc50_data.py
+```
 
 ### Train and Evaluation
 
