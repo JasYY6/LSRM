@@ -12,7 +12,7 @@ Air pollution and an aging population have caused the increasing rates of lung d
 ## Classification Results on Combinded dataset and ESC-50(%)
 
 <p align="center">
-<img src="fig/ac_result.png" align="center" alt="HTS-AT ClS Result" width="100%"/>
+<img src="fig/ac_result.png" align="center" alt="ClS Result" width="100%"/>
 </p>
 
 
@@ -31,6 +31,3 @@ All scripts is run by main.py:
 Train: CUDA_VISIBLE_DEVICES=1,2 python main.py train
 Test: CUDA_VISIBLE_DEVICES=1,2 python main.py test
 ```
-### Model Checkpoints:
-
-We provide the model checkpoints on three datasets (and additionally DESED dataset) in this [link](https://drive.google.com/drive/folders/1f5VYMk0uos_YnuBshgmaTVioXbs7Kmz6?usp=sharing). Feel free to download and test it.
