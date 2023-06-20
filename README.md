@@ -39,12 +39,12 @@ Because the dataset involves trade secrets, it cannot be made public at this tim
 *[ESC-50](https://github.com/karolpiczak/ESC-50)
 
 You can download the dataset yourself. 
-You need to set:
+Then set:
 ```
 dataset_path = "the download address of the dataset"
 resample_path = "resampled directory"
 ```
-Then:
+Run:
 ```
 cd esc-50
 python esc50_data.py
