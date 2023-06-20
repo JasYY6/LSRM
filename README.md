@@ -29,6 +29,7 @@ pip install -r requirements.txt
 All scripts is run by main.py:
 ```
 Train: CUDA_VISIBLE_DEVICES=1,2 python main.py train
+```
 
 ### Model Checkpoints:
 
